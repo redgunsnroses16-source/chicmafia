@@ -1,0 +1,797 @@
+{
+  "store": {
+    "name": "Chic’ Mafia",
+    "messenger": "https://m.me/61564656911756",
+    "hours": {
+      "enabled": false,
+      "timezone": "Asia/Manila",
+      "schedule": {}
+    }
+  },
+  "flavors": [
+    {
+      "id": "yn",
+      "name": "Yang Nyeom",
+      "tier": "Premium",
+      "description": "Korean honey, spicy-sour glaze",
+      "image": "yn.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        }
+      ]
+    },
+    {
+      "id": "se",
+      "name": "Salted Egg",
+      "tier": "Premium",
+      "description": "Sweet and salty salted-egg sauce",
+      "image": "se.webp",
+      "badge": "",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        }
+      ]
+    },
+    {
+      "id": "mc",
+      "name": "Melted Cheese",
+      "tier": "Premium",
+      "description": "Creamy melted cheese",
+      "image": "mc.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 109,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "ch",
+      "name": "Cheddar Cheese",
+      "tier": "Premium",
+      "description": "Cheddar sauce, parsley",
+      "image": "ch.webp",
+      "badge": "New",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 109,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "sb",
+      "name": "Spicy BBQ",
+      "tier": "Premium",
+      "description": "Sweet, smoky, a little heat",
+      "image": "sb.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 109,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "name": "Parmesan Chic",
+      "tier": "Premium",
+      "description": "Parmesan-dusted",
+      "image": "pm.webp",
+      "badge": "",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 105,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "bf",
+      "name": "Buffalo",
+      "tier": "Classic",
+      "description": "Tangy buffalo sauce",
+      "image": "bf.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 109,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "hg",
+      "name": "Honey Garlic",
+      "tier": "Classic",
+      "description": "Honey glaze, fried garlic",
+      "image": "hg.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 105,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "hl",
+      "name": "Honey Lemon",
+      "tier": "Classic",
+      "description": "Sweet honey with citrus",
+      "image": "hl.webp",
+      "badge": "",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 105,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "sn",
+      "name": "Snow Cheese",
+      "tier": "Classic",
+      "description": "Cheese-powder dusted",
+      "image": "sn.webp",
+      "badge": "",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 109,
+          "pieces": 5
+        }
+      ]
+    },
+    {
+      "id": "tk",
+      "name": "Teriyaki",
+      "tier": "Classic",
+      "description": "Sticky sweet teriyaki",
+      "image": "tk.webp",
+      "badge": "Best seller",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "3 pcs",
+          "price": 95,
+          "pieces": 3
+        },
+        {
+          "label": "5 pcs",
+          "price": 105,
+          "pieces": 5
+        }
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "id": "solo",
+      "name": "Solo Hitman",
+      "description": "6 pieces. One hungry boss.",
+      "image": "solo.webp",
+      "category": "boxes",
+      "soldOut": false,
+      "options": [
+        {
+          "label": "Classic · 6 pcs",
+          "price": 125,
+          "slots": [
+            "C"
+          ]
+        },
+        {
+          "label": "Premium · 6 pcs",
+          "price": 135,
+          "slots": [
+            "P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tandem",
+      "name": "Tandem Mafia",
+      "description": "12 pieces. Better with a partner in crime.",
+      "image": "tandem.webp",
+      "category": "boxes",
+      "soldOut": false,
+      "options": [
+        {
+          "label": "Half-half · 12 pcs",
+          "price": 260,
+          "slots": [
+            "A",
+            "A"
+          ]
+        },
+        {
+          "label": "Classic · 12 pcs",
+          "price": 250,
+          "slots": [
+            "C",
+            "C"
+          ]
+        },
+        {
+          "label": "Premium · 12 pcs",
+          "price": 270,
+          "slots": [
+            "P",
+            "P"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boss",
+      "name": "For The Boss",
+      "description": "16 pieces. 8 premium + 8 classic.",
+      "image": "boss.webp",
+      "category": "boxes",
+      "soldOut": false,
+      "options": [
+        {
+          "label": "Boss box · 16 pcs",
+          "price": 360,
+          "slots": [
+            "P",
+            "P",
+            "C",
+            "C"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "name": "Mafia Fries",
+      "description": "Your favorite fries flavor, with a dip.",
+      "image": "mafia-fries.webp",
+      "category": "sides",
+      "soldOut": false,
+      "options": [
+        {
+          "label": "Regular",
+          "price": 60,
+          "slots": [
+            "F",
+            "D"
+          ]
+        },
+        {
+          "label": "Large",
+          "price": 75,
+          "slots": [
+            "F",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cf",
+      "name": "Chic N’ Fries",
+      "description": "Golden fries loaded with boneless chic.",
+      "image": "chic-n-fries.webp",
+      "category": "sides",
+      "soldOut": false,
+      "options": [
+        {
+          "label": "Regular",
+          "price": 100,
+          "slots": [
+            "F",
+            "D"
+          ]
+        },
+        {
+          "label": "Large",
+          "price": 125,
+          "slots": [
+            "F",
+            "D"
+          ]
+        }
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "id": "lm",
+      "name": "Lemonade Iced Tea",
+      "description": "Choose 16oz or 1.5L",
+      "image": "lm.webp",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "16oz",
+          "price": 20
+        },
+        {
+          "label": "1.5L",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "rt",
+      "name": "Red Iced Tea",
+      "description": "Choose 16oz or 1.5L",
+      "image": "rt.webp",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "16oz",
+          "price": 20
+        },
+        {
+          "label": "1.5L",
+          "price": 75
+        }
+      ]
+    },
+    {
+      "id": "ck",
+      "name": "Coke",
+      "description": "16oz bottle",
+      "image": "ck.webp",
+      "soldOut": false,
+      "sizes": [
+        {
+          "label": "16oz",
+          "price": 25
+        }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": "rice",
+      "name": "Extra Java rice",
+      "price": 18,
+      "soldOut": false
+    },
+    {
+      "id": "sauce",
+      "name": "Extra sauce",
+      "price": 38,
+      "soldOut": false
+    },
+    {
+      "id": "spicy",
+      "name": "Extra spicy",
+      "price": 8,
+      "soldOut": false
+    }
+  ],
+  "zones": [
+    {
+      "id": "zone-0-0",
+      "group": "Bellavista",
+      "name": "B6",
+      "fee": 5
+    },
+    {
+      "id": "zone-0-1",
+      "group": "Bellavista",
+      "name": "B37 L1-L5",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-2",
+      "group": "Bellavista",
+      "name": "B38 L1-L44",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-3",
+      "group": "Bellavista",
+      "name": "B47 L25-L17",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-4",
+      "group": "Bellavista",
+      "name": "B79 L1-L18",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-5",
+      "group": "Bellavista",
+      "name": "B79 L31 onwards",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-6",
+      "group": "Bellavista",
+      "name": "Haven Hotel",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-7",
+      "group": "Bellavista",
+      "name": "Cluster 1",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-8",
+      "group": "Bellavista",
+      "name": "Cluster 2",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-9",
+      "group": "Bellavista",
+      "name": "Cluster 3",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-10",
+      "group": "Bellavista",
+      "name": "Cluster 4",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-11",
+      "group": "Bellavista",
+      "name": "Cluster 5",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-12",
+      "group": "Bellavista",
+      "name": "Cluster 6",
+      "fee": 20
+    },
+    {
+      "id": "zone-0-13",
+      "group": "Bellavista",
+      "name": "Lessandra Ph 1",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-14",
+      "group": "Bellavista",
+      "name": "Lessandra Ph 2",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-15",
+      "group": "Bellavista",
+      "name": "Bria",
+      "fee": 15
+    },
+    {
+      "id": "zone-0-16",
+      "group": "Bellavista",
+      "name": "Sitio Henero",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-0",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 1",
+      "fee": 45
+    },
+    {
+      "id": "zone-1-1",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 2",
+      "fee": 50
+    },
+    {
+      "id": "zone-1-2",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 3",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-3",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 4",
+      "fee": 50
+    },
+    {
+      "id": "zone-1-4",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 5",
+      "fee": 45
+    },
+    {
+      "id": "zone-1-5",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 6A",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-6",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 6B",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-7",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 6C",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-8",
+      "group": "Tierra Nevada & nearby",
+      "name": "Phase 7",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-9",
+      "group": "Tierra Nevada & nearby",
+      "name": "Caripiohan",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-10",
+      "group": "Tierra Nevada & nearby",
+      "name": "Tierra Vista",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-11",
+      "group": "Tierra Nevada & nearby",
+      "name": "Lumina Homes",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-12",
+      "group": "Tierra Nevada & nearby",
+      "name": "Kiko Rosa",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-13",
+      "group": "Tierra Nevada & nearby",
+      "name": "Mistral",
+      "fee": 40
+    },
+    {
+      "id": "zone-1-14",
+      "group": "Tierra Nevada & nearby",
+      "name": "Savanah Fields Ph 1-4",
+      "fee": 40
+    },
+    {
+      "id": "zone-1-15",
+      "group": "Tierra Nevada & nearby",
+      "name": "Camella Vita",
+      "fee": 45
+    },
+    {
+      "id": "zone-1-16",
+      "group": "Tierra Nevada & nearby",
+      "name": "Kanatuhan 1",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-17",
+      "group": "Tierra Nevada & nearby",
+      "name": "Kanatuhan 2",
+      "fee": 55
+    },
+    {
+      "id": "zone-1-18",
+      "group": "Tierra Nevada & nearby",
+      "name": "Cyber Ville",
+      "fee": 65
+    },
+    {
+      "id": "zone-1-19",
+      "group": "Tierra Nevada & nearby",
+      "name": "Ville de Palme",
+      "fee": 60
+    },
+    {
+      "id": "zone-1-20",
+      "group": "Tierra Nevada & nearby",
+      "name": "Villa Estancia",
+      "fee": 40
+    },
+    {
+      "id": "zone-1-21",
+      "group": "Tierra Nevada & nearby",
+      "name": "LRTA",
+      "fee": 40
+    },
+    {
+      "id": "zone-1-22",
+      "group": "Tierra Nevada & nearby",
+      "name": "Golden Ville",
+      "fee": 45
+    },
+    {
+      "id": "zone-1-23",
+      "group": "Tierra Nevada & nearby",
+      "name": "Amaia Scapes",
+      "fee": 60
+    },
+    {
+      "id": "zone-1-24",
+      "group": "Tierra Nevada & nearby",
+      "name": "Santiago Purok 4",
+      "fee": 40
+    },
+    {
+      "id": "zone-1-25",
+      "group": "Tierra Nevada & nearby",
+      "name": "Santiago Purok 5",
+      "fee": 35
+    },
+    {
+      "id": "zone-1-26",
+      "group": "Tierra Nevada & nearby",
+      "name": "Sunnybrook 1",
+      "fee": 65
+    },
+    {
+      "id": "zone-1-27",
+      "group": "Tierra Nevada & nearby",
+      "name": "Sunnybrook 2",
+      "fee": 65
+    },
+    {
+      "id": "zone-1-28",
+      "group": "Tierra Nevada & nearby",
+      "name": "Le Rica",
+      "fee": 45
+    },
+    {
+      "id": "zone-1-29",
+      "group": "Tierra Nevada & nearby",
+      "name": "Sitio Elang",
+      "fee": 50
+    },
+    {
+      "id": "zone-2-0",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 1",
+      "fee": 50
+    },
+    {
+      "id": "zone-2-1",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 2",
+      "fee": 50
+    },
+    {
+      "id": "zone-2-2",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 3",
+      "fee": 50
+    },
+    {
+      "id": "zone-2-3",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 4",
+      "fee": 50
+    },
+    {
+      "id": "zone-2-4",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 5",
+      "fee": 60
+    },
+    {
+      "id": "zone-2-5",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 6",
+      "fee": 55
+    },
+    {
+      "id": "zone-2-6",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 7",
+      "fee": 55
+    },
+    {
+      "id": "zone-2-7",
+      "group": "Parklane & nearby",
+      "name": "Parklane Ph 8",
+      "fee": 55
+    },
+    {
+      "id": "zone-2-8",
+      "group": "Parklane & nearby",
+      "name": "Marydale",
+      "fee": 55
+    },
+    {
+      "id": "zone-2-9",
+      "group": "Parklane & nearby",
+      "name": "Redcloud Vape",
+      "fee": 45
+    },
+    {
+      "id": "zone-2-10",
+      "group": "Parklane & nearby",
+      "name": "KPNP Village",
+      "fee": 40
+    },
+    {
+      "id": "zone-2-11",
+      "group": "Parklane & nearby",
+      "name": "FIHA Homes",
+      "fee": 40
+    },
+    {
+      "id": "zone-2-12",
+      "group": "Parklane & nearby",
+      "name": "Sitio Marulas",
+      "fee": 45
+    }
+  ]
+}
