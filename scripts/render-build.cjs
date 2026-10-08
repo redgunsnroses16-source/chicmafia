@@ -23,7 +23,7 @@ async function main() {
   const manifest=JSON.parse(bytes.toString('utf8'));
   if(!Array.isArray(manifest.files)||manifest.files.length<4||manifest.files.length>100) throw Error('Invalid customer manifest');
   const seen=new Set();
-  const root=path.resolve('.');
+  const root=path.resolve('render-public');
   for(const file of manifest.files) {
     if(!file||typeof file.path!=='string'||! /^(?:index\.html|menu\.json|customer\.(?:css|js)|assets\/[a-z0-9-]+\.(?:webp|woff2))$/.test(file.path)||seen.has(file.path)||!/^[a-f0-9]{64}$/.test(file.sha256)) throw Error('Invalid customer asset');
     seen.add(file.path);
