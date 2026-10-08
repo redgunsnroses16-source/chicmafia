@@ -29,7 +29,7 @@ async function main() {
     seen.add(file.path);
     const output=path.resolve(root,file.path);
     if(!output.startsWith(root+path.sep)) throw Error('Invalid output path');
-    const assetPath=file.path==='index.html'?'':file.path;
+    const assetPath=file.path==='index.html'?'render-homepage.bin':file.path;
     const asset=await read(ORIGIN+'/'+assetPath+'?v='+expected,8*1024*1024);
     if(digest(asset)!==file.sha256) throw Error('Customer asset hash mismatch: '+file.path);
     fs.mkdirSync(path.dirname(output),{recursive:true});
