@@ -18,7 +18,7 @@ async function read(url, maxBytes) {
 async function main() {
   const expected=process.argv[2];
   if(!/^[a-f0-9]{64}$/.test(expected||'')) throw Error('A pinned manifest hash is required');
-  const bytes=await read(ORIGIN+'/render-manifest.json',65536);
+  const bytes=await read(ORIGIN+'/render-manifest.json?v='+expected,65536);
   if(digest(bytes)!==expected) throw Error('Manifest does not match the reviewed deployment');
   const manifest=JSON.parse(bytes.toString('utf8'));
   if(!Array.isArray(manifest.files)||manifest.files.length<4||manifest.files.length>100) throw Error('Invalid customer manifest');
@@ -29,7 +29,7 @@ async function main() {
     seen.add(file.path);
     const output=path.resolve(root,file.path);
     if(!output.startsWith(root+path.sep)) throw Error('Invalid output path');
-    const asset=await read(ORIGIN+'/'+file.path,8*1024*1024);
+    const asset=await read(ORIGIN+'/'+file.path+'?v='+expected,8*1024*1024);
     if(digest(asset)!==file.sha256) throw Error('Customer asset hash mismatch: '+file.path);
     fs.mkdirSync(path.dirname(output),{recursive:true});
     fs.writeFileSync(output,asset);
